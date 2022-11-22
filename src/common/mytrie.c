@@ -290,8 +290,6 @@ void TestOperatorTree()
 
     init_operator_tree(&tree, init_elements, sizeof(init_elements) / sizeof(init_t));
 
-    printf("00\n");
-
     my_log(DEBUG_TRIE, "mov = %x\n", operator_type(tree, "mov"));
     my_log(DEBUG_TRIE, "mov = %x\n", 0);
     my_log(DEBUG_TRIE, "add = %x\n", operator_type(tree, "add"));

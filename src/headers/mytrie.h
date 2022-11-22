@@ -1,9 +1,9 @@
 #ifndef MY_TRIE_HEADER
 #define MY_TRIE_HEADER
 
+#include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <malloc.h>
 #include <stdlib.h>
 #include <headers/log.h>
 #include <headers/cpu.h>
